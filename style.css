@@ -31,7 +31,7 @@ header h1 {
 
 /* Setting font and margin for text before input box */
 label {
-	font-size: large;
+	font-size: normal;
 	margin: 2%;
 }
 
