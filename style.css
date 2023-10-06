@@ -15,7 +15,7 @@ body {
 	margin: auto;
 	padding: 2%;
 	padding-top: 0%;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 
 header {
@@ -67,5 +67,5 @@ p {
 	padding: 5%;
 	padding-top: 7%;
 	font-size: larger;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
