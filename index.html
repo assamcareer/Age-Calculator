@@ -1,44 +1,41 @@
-<!DOCTYPE html> 
-<html> 
 
-<head> 
-	<title>Age Calculator</title> 
-	<link rel="stylesheet"
-		href="style.css" /> 
-</head> 
 
-<body> 
-	<div class="card"> 
-		<header> 
-			<h1>AGE CALCULATOR</h1> 
-		</header> 
-
-		<div> 
-			<label>Enter your Date of Birth</label> 
-
-			<input id="inputDob"
-				type="date"
-				value="2000-01-01" /> 
-		</div> 
-		<br /> 
-
-		<!-- Take the date from which age is to be calculated -->
-		<div> 
-			<label>Current Date</label><br> 
-			<input id="cdate"
-				type="date"
-				value="" /> 
-		</div> 
-		<br /> 
-
-		<button type="button"
-				onclick="getDOB()"> 
-			Calculate 
-		</button> 
-		<br /> 
-		<div id="currentAge"></div> 
-		<script src="script.js"></script> 
-	</div> 
-</body> 
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Age Calculator</title>
+</head>
+<body>
+  
+  <div id="container">
+    <img src="https://lh6.ggpht.com/wLfwA7MS68Zd2KedA1vCX6-zLqDIUSwBC3W4GzgJaZfOWX2BOlw6mjj0DatL4oII8Q=w300" alt="" />
+    <form id="form" autocomplete="off">
+      <h5>All Must Be In Numbers Other Wise We Cannot Calculate.</h5>
+      <label for="date">
+        Date Of Birth:
+        <input type="text" maxlength="2" size="2" id="date" placeholder="Date" required/>
+        <input type="text" maxlength="2" size="2" id="month" placeholder="Month" autocomplete="on" required/>
+        <input type="text" maxlength="4" size="4" id="year" placeholder="Year" required/>
+      </label>
+      <br />
+      <br />
+      <label for="date2">
+        Today's Date:
+        <input type="text" maxlength="2" size="2" id="date2" placeholder="Date"/>
+        <input type="text" maxlength="2" size="2" id="month2" placeholder="Month"/>
+        <input type="text" maxlength="4" size="4" id="year2" placeholder="Year"/>
+      </label>
+      <br />
+      <br />
+      <button id="calbtn">Calculate</button>
+      <br />
+      <br />
+      <span id="age"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span id="months"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span id="days"></span>
+    </form>
+  </div>
+  
+</body>
 </html>
+
